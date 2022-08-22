@@ -46,6 +46,7 @@ a:hover {
 
 hr.nav-line {
   border-top: 1px solid rgb(250, 250, 250);
+  width: 95%;
 }
 
 /* MAIN CSS ---------------------------------------------------*/
@@ -78,18 +79,18 @@ hr.nav-line {
 }
 
 .main-text {
-  font-size: 1.2rem;
+  font-size: 1.15rem;
 }
 
 .job-title {
-  font-size: 1.3rem;
+  font-size: 1.1rem;
   margin-top: 0.75rem;
   margin-bottom: 0;
 }
 
 .follow-me {
   margin-top: 0.5rem;
-  font-size: 1.25rem;
+  font-size: 1rem;
   margin-bottom: 0.5rem;
 }
 
@@ -171,7 +172,7 @@ hr.nav-line {
 }
 
 .skills-list {
-  font-size: 1.25rem;
+  font-size: 1.1rem;
 }
 
 .skills-item {
@@ -179,7 +180,7 @@ hr.nav-line {
 }
 
 .skills-header {
-  font-size: 1.5rem;
+  font-size: 1.25rem;
   font-weight: 600;
 }
 
@@ -229,4 +230,27 @@ hr.nav-line {
 h4 {
   margin-top: 0;
   margin-bottom: 0;
+}
+
+span.swiper-pagination-bullet {
+  background-color: green;
+}
+
+/* FOOTER ----------------------------------- */
+hr.footer-line {
+  border-top: 1px solid rgb(250, 250, 250);
+  width: 95%;
+}
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 2rem;
+  margin-right: 2rem;
+}
+
+.phone,
+.email {
+  margin-top: 0.25rem;
 }
