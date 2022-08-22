@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
+
+*, ::before, ::after {
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+/* NAV CSS --------------------------------------- */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    font-family: 'Poppins', sans-serif;
+}
+
+ul {
+    list-style: none;
+    text-decoration: none;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    color: blue;
+}
+
+.nav-link  {
+    margin-right: 1.5rem;
+}
+
+hr.nav-line {
+    border-top: 1px solid rgb(250, 250, 250);
+}
+
+/* MAIN CSS */
+.main-container {
+    margin: 10rem auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 70%;
+}
+
+.savon-img {
+    border-radius: 50%;
+    width: 75%;
+}
+
+
+.left-main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.left-img {
+    text-align: center;
+}
+
+.hello-title {
+    font-size: 4rem;
+    margin-bottom: 1rem;
+}
+
+.main-text {
+    font-size: 1.20rem;
+}
+
+.job-title {
+    font-size: 1.3rem;
+    margin-top: .75rem;
+    margin-bottom: 0;
+}
+
+.follow-me {
+    margin-top: .50rem;
+    font-size: 1.1rem;
+    margin-bottom: .5rem;
+}
+
