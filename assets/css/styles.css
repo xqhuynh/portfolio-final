@@ -104,15 +104,15 @@ hr.nav-line {
 .about-title, .skills-title {
     font-size: 2rem;
     text-align: center;
-    margin-bottom: 4rem;
+    margin-bottom: 3rem;
 }
 
 .about-container {
     display: flex;
-    gap: 2rem;
+    gap: 4rem;
     width: 50%;
     justify-content: center;
-    margin: auto auto 10rem auto;
+    margin: auto auto 20rem auto;
 }
 
 .right-about {
@@ -138,3 +138,25 @@ hr.nav-line {
 }
 
 /* SKILLS SECTION ------------------------------- */
+.skills-container {
+    display: flex;
+    justify-content: center;
+    gap: 10rem;
+    font-size: 1.4rem;
+    margin-bottom: 20rem;
+}
+
+.left-skills, .right-skills {
+    display: flex;
+    align-items: center;
+    /* gap: 1rem; */
+}
+
+.skills-icon {
+    width: 50%;
+}
+
+.chevron-down {
+    margin-left: 2rem;
+    width: 50%;
+}
