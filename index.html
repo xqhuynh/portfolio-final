@@ -1,102 +1,258 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="./assets/css/styles.css" rel="stylesheet">
-    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
-    <script src="./assets/script/main.js"></script>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="./assets/css/styles.css" rel="stylesheet" />
+    <link
+      rel="stylesheet"
+      href="https://unicons.iconscout.com/release/v4.0.0/css/line.css"
+    />
+
+    <!-- Swiper -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"
+    />
+
     <title>Portfolio</title>
-</head>
-<body>
+  </head>
+  <body>
     <!-- Header -->
     <header class="container">
-        <nav class="navbar">
-            <div>
-                <a href="#home" class="nav-logo">Savon</a>
-            </div>
+      <nav class="navbar">
+        <div>
+          <a href="#home" class="nav-logo">Savon</a>
+        </div>
 
-            <div class="nav-menu">
-                <ul class="nav-list">
-                    <li class="nav-item">
-                        <a href="#about" class="nav-link">About</a>
-                        <a href="#skills" class="nav-link">Skills</a>
-                        <a href="#portfolio" class="nav-link">Portfolio</a>
-                        <a href="#contact" class="nav-link">Contact</a>
-                    </li>
-                </ul>
-            </div>
-        </nav>
-        <hr class="nav-line" />
+        <div class="nav-menu">
+          <ul class="nav-list">
+            <li class="nav-item">
+              <a href="#about" class="nav-link">About</a>
+              <a href="#skills" class="nav-link">Skills</a>
+              <a href="#portfolio" class="nav-link">Portfolio</a>
+              <a href="#contact" class="nav-link">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+      <hr class="nav-line" />
     </header>
 
     <!-- Main section -->
     <main class="main-container">
-        <div class="left-main">
-           <div class="left-img">
-            <img class="savon-img" src="./assets/img/savon.jpeg" alt="Savon" />
-           </div> 
-           <h5 class="job-title">Software Engineer</h5>
-           <p class="follow-me">Follow Me</p>
-           <div class="social-icons">
-            <img class="icon" src="./assets/img/facebook.png" />
-            <img class="icon" src="./assets/img/instagram.png" />
-            <img class="icon" src="./assets/img/linkedin.png" />
-           </div>
+      <div class="left-main">
+        <div class="left-img">
+          <img class="savon-img" src="./assets/img/savon.jpeg" alt="Savon" />
         </div>
+        <h5 class="job-title">Software Engineer</h5>
+        <p class="follow-me">Follow Me</p>
+        <div class="social-icons">
+          <img class="icon" src="./assets/img/facebook.png" />
+          <img class="icon" src="./assets/img/instagram.png" />
+          <img class="icon" src="./assets/img/linkedin.png" />
+        </div>
+      </div>
 
-        <div class="right-main">
-            <h2 class="hello-title">Hello</h2>
-            <p class="main-text">My name is Savon and I love to use technology to solve problems.</p>
-        </div>
+      <div class="right-main">
+        <h2 class="hello-title">Hello</h2>
+        <p class="main-text">
+          My name is Savon and I love to use technology to solve problems.
+        </p>
+      </div>
     </main>
 
     <!-- About Section -->
     <h2 class="about-title">About Me</h2>
     <section class="about-container" id="about">
-        <div class="left-about">
-            <img src="./assets/img/savonny.jpeg" alt="savonny" />
-        </div>
-        
-        <div class="right-about">
-            <p class="main-text">I am a software engineer who loves to learn new technology with a passion
-                for creating and building web applications. 
-                
-            </p>
-            <p class="main-text">Lifelong learner who is unafraid to 
-                tackle new projects and learn new technology.
-            </p>
-            <button class="download-btn">
-                <a class="download-text" download="" href="./assets/img/SH-Resume.docx.pdf">
-                  Download CV  
-                </a>
-            </button>
-        </div>
+      <div class="left-about">
+        <img class="about-img" src="./assets/img/savonny.jpeg" alt="savonny" />
+      </div>
+
+      <div class="right-about">
+        <p class="main-text">
+          I am a software engineer who loves to learn new technology with a
+          passion for creating and building web applications.
+        </p>
+        <p class="main-text">
+          Lifelong learner who is unafraid to tackle new projects and learn new
+          technology.
+        </p>
+        <button class="download-btn">
+          <a
+            class="download-text"
+            download=""
+            href="./assets/img/SH-Resume.docx.pdf"
+          >
+            Download CV
+          </a>
+        </button>
+      </div>
     </section>
 
     <!-- Skills Section -->
     <h2 class="skills-title">Skills</h2>
     <div class="skills-container" id="skills">
+      <div class="left-skills-container">
         <div class="left-skills">
-            <div>
-                <img class="skills-icon" src="./assets/img/display.png" alt="frontend" />
-            </div>
-            <div>Frontend</div>
-            <div>
+          <div>
+            <img
+              class="skills-icon"
+              src="./assets/img/display.png"
+              alt="frontend"
+            />
+          </div>
+          <div class="skills-header">Frontend</div>
+          <!-- <div>
                 <img class="chevron-down" src="./assets/img/down-chevron.png" alt="down-arrow" />
-            </div>
+            </div> -->
         </div>
+        <div>
+          <ul class="skills-list">
+            <li class="skills-item">HTML</li>
+            <li class="skills-item">CSS</li>
+            <li class="skills-item">React</li>
+            <li class="skills-item">JavaScript</li>
+            <li class="skills-item">Redux</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="middle-skills-container">
+        <div class="middle-skills">
+          <div>
+            <img
+              class="skills-icon"
+              src="./assets/img/computer-database.png"
+              alt="backend"
+            />
+          </div>
+          <div class="skills-header">Backend</div>
+          <!-- <div>
+                <img class="chevron-down" src="./assets/img/down-chevron.png" alt="down-arrow" />
+            </div> -->
+        </div>
+        <div>
+          <ul class="skills-list">
+            <li class="skills-item">PostgreSQL</li>
+            <li class="skills-item">Node.js</li>
+            <li class="skills-item">Express.js</li>
+            <li class="skills-item">MySQL</li>
+            <li class="skills-item">JavaScript</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="right-skills-container">
         <div class="right-skills">
-            <div>
-                <img class="skills-icon" src="./assets/img/computer-database.png" alt="backend" />    
-            </div>
-            <div>Backend</div>
-            <div>
-                <img class="chevron-down" src="./assets/img/down-chevron.png" alt="down-arrow" />
-            </div>
+          <div>
+            <img
+              class="skills-icon"
+              src="./assets/img/technology.png"
+              alt="other"
+            />
+          </div>
+          <div class="skills-header">Other</div>
+          <!-- <div>
+                 <img class="chevron-down" src="./assets/img/down-chevron.png" alt="down-arrow" />
+             </div> -->
         </div>
+        <div>
+          <ul class="skills-list">
+            <li class="skills-item">jQuery</li>
+            <li class="skills-item">Bootstrap</li>
+            <li class="skills-item">Material UI</li>
+            <li class="skills-item">Ajax</li>
+          </ul>
+        </div>
+      </div>
     </div>
-    
-</body>
+
+    <!-- Portfolio Section -->
+    <h2 class="portfolio-title" id="porfolio">Portfolio</h2>
+    <section class="portfolio-container">
+      <!-- Slider main container -->
+      <div class="swiper">
+        <!-- Additional required wrapper -->
+        <div class="swiper-wrapper">
+          <!-- Slides -->
+          <div class="swiper-slide">
+            <div class="swiper-slide-flex">
+              <div class="portfolio-img">
+                <img src="./assets/img/groupie.png" alt="" />
+              </div>
+              <div class="portfolio-rt">
+                <div><h4>Groupie</h4></div>
+                <div>
+                  <p>
+                    Groupie is a web app that connects gym goers with gym
+                    instructors based on tags. Developed within a 2 week sprint
+                    utilizing the PERN stack.
+                  </p>
+                </div>
+                <div>
+                  <button class="download-btn download-text">Demo</button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="swiper-slide">
+            <div class="swiper-slide-flex">
+              <div class="portfolio-img">
+                <img src="./assets/img/sweet-surrender.png" alt="" />
+              </div>
+              <div class="portfolio-rt">
+                <div><h4>Groupie</h4></div>
+                <div>
+                  <p>
+                    Groupie is a web app that connects gym goers with gym
+                    instructors based on tags. Developed within a 2 week sprint
+                    utilizing the PERN stack.
+                  </p>
+                </div>
+                <div>
+                  <button class="download-btn download-text">Demo</button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="swiper-slide">
+            <div class="swiper-slide-flex">
+              <div class="portfolio-img">
+                <img src="./assets/img/calculator.png" alt="" />
+              </div>
+              <div class="portfolio-rt">
+                <div><h4>Groupie</h4></div>
+                <div>
+                  <p>
+                    Groupie is a web app that connects gym goers with gym
+                    instructors based on tags. Developed within a 2 week sprint
+                    utilizing the PERN stack.
+                  </p>
+                </div>
+                <div>
+                  <button class="download-btn download-text">Demo</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- If we need pagination -->
+        <div class="swiper-pagination"></div>
+
+        <!-- If we need navigation buttons -->
+        <div class="item-prev swiper-button-prev"></div>
+        <div class="item-next swiper-button-next"></div>
+
+        <!-- If we need scrollbar -->
+        <!-- <div class="swiper-scrollbar"></div> -->
+      </div>
+    </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <script src="./assets/script/main.js"></script>
+  </body>
 </html>
