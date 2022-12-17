@@ -15,8 +15,6 @@ This project was created to showcase my personal portfolio.
 
 <img width="1335" alt="Screenshot 2022-12-17 at 10 25 03 AM" src="https://user-images.githubusercontent.com/77410880/208256103-74d7cb50-2a60-4d66-9760-96e83f1faf49.png">
 
-<img width="1327" alt="Screenshot 2022-12-17 at 10 25 10 AM" src="https://user-images.githubusercontent.com/77410880/208256109-6815b0a5-a314-439a-855d-05b41a80d3f9.png">
-
 <img width="1405" alt="Screenshot 2022-12-17 at 10 25 20 AM" src="https://user-images.githubusercontent.com/77410880/208256114-1d6409a9-8159-4c01-8b61-358f80785e34.png">
 
 
