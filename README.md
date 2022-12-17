@@ -3,7 +3,7 @@
 
 ## Description
 
-This project was created to showcase my personal portfolio. 
+This project was created to showcase my personal portfolio. The goal was to keep it simple and consise. 
 
 ## Screen Shot
 
