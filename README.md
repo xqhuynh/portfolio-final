@@ -3,7 +3,7 @@
 
 ## Description
 
-_This project was created to showcase my portfolio
+This project was created to showcase my personal portfolio. 
 
 ## Screen Shot
 
